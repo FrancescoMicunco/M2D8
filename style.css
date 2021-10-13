@@ -119,6 +119,12 @@
     padding: 12px;
 }
 
+.ex3-cards .card-body > p{
+    font-size: 13px;
+    color: grey;
+}
+
+
 .card3-bottom-elements{
     display: flex;
     justify-content: space-between;
@@ -127,3 +133,74 @@
    
 }
 
+.card3-btns{
+    display: flex;
+}
+
+.card3-btns button:nth-child(1){
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card3-btns button:nth-child(2){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* EXERCISE 4 STYLE */
+
+.ex4-big-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+
+.secondary-text{
+    font-weight: 300;
+}
+
+.sidebar-ul > li{
+    list-style-type: none;
+}
+
+.sidebar-p{
+    font-size: 13px;
+}
+
+.post-text{
+    font-size: 13px;
+}
+
+.card-footer p{
+    margin-bottom: 0;
+}
+
+.paginate{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.paginate button:nth-child(1){
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.paginate button:nth-child(2){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* Exercise 5 style */
+
+.footer-col-ul li{
+    list-style-type: none;
+}
+
+.footer-col-ul li a{
+    color: gray;
+    font-weight: 300;
+}
