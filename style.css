@@ -66,11 +66,27 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
+    width: 32%;
 
 }
 
-.box-3-columns {
+
+.box-3-columns{
+    width: 100%;
+    height: 100%;
     display: flex;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-3 .box-3-columns:nth-child(1){
+    background-color: #fff7bc;
+}
+
+#box-3 .box-3-columns:nth-child(2){
+    background-color: #ffed69;
+}
+
+#box-3 .box-3-columns:nth-child(3){
+    background-color: #ffe41f;
 }
