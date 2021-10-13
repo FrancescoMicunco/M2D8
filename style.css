@@ -97,3 +97,33 @@
 .ex2-cards {
     width: 31%;
 }
+
+.exercise-containers{
+    margin-top: 40px;
+}
+
+
+/* EXERCISE 3 STYLE */
+
+.ex3-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ex3-cards{
+    margin-top: 20px;
+}
+
+.ex3-cards .card-body{
+    padding: 12px;
+}
+
+.card3-bottom-elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    align-items: baseline;
+   
+}
+
